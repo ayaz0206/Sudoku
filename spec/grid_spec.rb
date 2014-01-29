@@ -21,6 +21,10 @@ describe Grid do
 			expect(grid.cells[1]).to eq(1)
 		end
 
+		it "should not be solved" do
+			expect(grid).not_to be_solved
+		end
+
 
 	end
 end
