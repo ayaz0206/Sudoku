@@ -17,6 +17,10 @@ describe Grid do
 			expect(grid.cells.first).to eq(0)
 		end
 
+		it "should have a solved second cell with value 1" do
+			expect(grid.cells[1]).to eq(1)
+		end
+
 
 	end
 end
