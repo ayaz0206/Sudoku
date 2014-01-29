@@ -1,10 +1,21 @@
 class Grid
 
+	attr_reader :cells
+
 	def initialize(puzzle)
-		@cells = Array.new 81
+		@cells = puzzle.chars.map {|x|(x.to_i) }
+		# @cells = Array.new(81)
+		
+
+
+
 	end
 
-	attr_reader :cells
+
+	
+
+
+
 
 
 end
