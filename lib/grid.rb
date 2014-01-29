@@ -8,7 +8,7 @@ class Grid
 	end
 
 	def solved?
-		false
+		
 	end
 
 
