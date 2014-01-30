@@ -1,10 +1,11 @@
 class Cell
 
-	attr_accessor :value
+	attr_accessor :value, :neighbours
 
 
-	def initialize
+	def initialize 
 		@value = value
+		@neighbours = neighbours
 
 	end
 
@@ -14,6 +15,10 @@ class Cell
 	end
 
 	def solve
+	end
+
+	def candidates
+		[1,2,3,4,5,6,7,8,9]
 	end
 
 end
